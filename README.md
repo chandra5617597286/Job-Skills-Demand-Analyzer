@@ -1,18 +1,17 @@
-Here is data link, which used for the code file : https://drive.google.com/file/d/11dbNZuxtyVIkSSPy9Tfb6Rt37dcsYK-4/view?usp=sharing
+## Job Market & Skill Demand Trends Analyzer
 
-Airline Data Quality & Performance Analysis
+Here is data link, which used for the code file : https://drive.google.com/file/d/1JS7RA1H_20oYH0MrOocIjVrJT1Kh1SDO/view
 
-- Analyzed over 1 million real-world flight records to identify the 10 busiest and most profitable round-trip airline routes.
 
-- Built KPIs—On-time Performance, Load Factor, Revenue per Mile and Cost per Mile—using Python (Pandas, NumPy, Matplotlib).
+- Cleaned and preprocessed 60K+ job postings (title, company, location, experience, salary) using Python & Pandas.
 
-- Conducted profitability and break-even analysis, identifying 5 high-ROI routes and calculating flight volume needed to recover a $90 M aircraft investment.
+- Normalized job descriptions (lowercase, remove punctuation) and extracted skill keywords via regex + mapping dictionary.
 
-- Performed end-to-end data cleansing, merging and transformation to ensure high data integrity and improve analytical accuracy.
+- Generated aggregated CSVs (skills_by_location, skills_by_company, skills_by_title, salary_by_skill) for Power BI.
+- Built interactive Power BI dashboards visualizing posting distribution, top roles, skill demand, salary trends, and demographics.
 
 Used tech stacks:
-
 1. Python
 2. Pandas
-3. NumPy
-4. Matplotlib
+3. RegEx
+4. Power BI
